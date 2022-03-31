@@ -89,4 +89,4 @@ http.createServer((req, res) => {
     } else {
         modifier.response(req, res, requestProxy);
     }
-}).listen(config.listenPort, config.listenAddress);
+}).listen(typeof(config.listenPort) === 'string' ? process.env[config.listenPort] : config.listenPort, config.listenAddress);
