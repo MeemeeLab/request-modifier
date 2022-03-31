@@ -1,0 +1,16 @@
+{
+  "name": "request-modifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "github:MeemeeLab/request-modifier",
+  "author": "MeemeeLab",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10"
+  }
+}
